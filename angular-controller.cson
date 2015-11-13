@@ -1,0 +1,4 @@
+'.source.js':
+  'angular-controller':
+    'prefix': 'a-ctrl'
+    'body': '(function() {\n  \'use strict\';\n\n  angular.module(\'${1:app}\')\n  .controller(\'${2}Ctrl\', ${2}Ctrl);\n\n  $2Ctrl.\$inject = [];\n\n  function ${2}Ctrl() {\n    var self = this;\n\n    ${3}\n  }\n\n})();'

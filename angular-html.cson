@@ -1,0 +1,4 @@
+'.source.js':
+  'angular-html':
+    'prefix': 'a-html'
+    'body': '<!DOCTYPE html>\n<html lang="en" ng-app="app">\n\n<head>\n  <meta charset="UTF-8">\n  <title>${1}</title>\n  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>\n  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>\n  <script src="${2:app.module.js}"></script>\n</head>\n\n<body>\n  ${3}\n</body>\n\n</html>'

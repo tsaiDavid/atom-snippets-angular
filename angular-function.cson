@@ -1,0 +1,4 @@
+'.source.js':
+  'angular-function':
+    'prefix': 'a-fun'
+    'body': 'self.${1} = function(${2}) {\n  ${3}\n};'

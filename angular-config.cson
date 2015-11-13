@@ -1,0 +1,4 @@
+'.source.js':
+  'angular-config':
+    'prefix': 'a-config'
+    'body': '(function() {\n  \'use strict\';\n\n  angular.module(\'${1:app}\')\n  .config(config);\n\n  config.\$inject = [];\n\n  function config(${2}) {\n    ${3}\n  }\n\n})();'

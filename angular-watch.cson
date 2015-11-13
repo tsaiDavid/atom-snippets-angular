@@ -1,0 +1,4 @@
+'.source.js':
+  'angular-watch':
+    'prefix': 'a-watch'
+    'body': '\$scope.\\$watch(function() {\n  return ${1};\n}, function(newVal, oldVal) {\n  ${2}\n});'

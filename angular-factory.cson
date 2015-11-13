@@ -1,0 +1,4 @@
+'.source.js':
+  'angular-factory':
+    'prefix': 'a-fact'
+    'body': '(function() {\n\t\'use strict\';\n\n\tangular.module(\'${1:app}\')\n\t.factory(\'${2}Factory\', ${2}Factory);\n\n  ${2}Factory.\$inject = [];\n\n\tfunction ${2}Factory(${3}) {\n    var services = {\n      ${4}: ${4},\n    };\n\n    return services;\n\n    function ${4}(${5}) {\n      ${6}\n    }\n\t}\n\n})();'

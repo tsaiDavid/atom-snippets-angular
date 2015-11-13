@@ -1,0 +1,4 @@
+'.source.js':
+  'angular-directive':
+    'prefix': 'a-dir'
+    'body': '(function() {\n\t\'use strict\';\n\n\tangular.module(\'${1:app}\')\n\t.directive(\'${2}\', ${2});\n\n\tfunction ${2}() {\n    var directive = {\n      template: \'\',\n      link: link\n    };\n\n    return directive;\n\n    function link(scope, elem, attrs) {\n      ${3}\n    }\n\t}\n\n})();'

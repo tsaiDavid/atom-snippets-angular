@@ -1,0 +1,4 @@
+'.source.js':
+  'js-console-log':
+    'prefix': 'clog'
+    'body': 'console.log(\'${1}\');'
