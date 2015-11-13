@@ -1,27 +1,14 @@
-# angular-snippets
+# atom-snippets-angular
 
-Clone this repo into your sublime user folder. Type the trigger(e.g. a-fact) and press tab to create the snippet. Use tab to edit the next field.
+@cyung developed these snippets for use in Sublime Text. Being an Atom user, I simply converted them into the `.cson` (CoffeeScript-Object-Notation) format that Atom uses.
 
 ##Installation
-Linux:
-```
-cd "~/.config/sublime-text-3/Packages/User"
-git clone https://github.com/cyung/angular-snippets.git
-```
 
+Clone this repo and simply place the snippets you want to use into the `snippets.cson` file in Atom. Please keep in mind that you can only have one source (ex: `'source.js'`) listed at any given time, so stack them on accordingly!
 
-Mac: 
-```
-cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-git clone https://github.com/cyung/angular-snippets.git
-```
+***Here's what Atom has to say about using their snippets:***
 
-
-Windows:
-```
-cd "C:/Users/%NAME%/AppData/Roaming/Sublime Text 3/Packages/User"
-git clone https://github.com/cyung/angular-snippets.git
-```
+>There is a text file in your ~/.atom directory called `snippets.cson` that contains all your custom snippets that >are loaded when you launch Atom. However, you can also easily open up that file by selecting the Atom > Open Your >Snippets menu.
 
 ## Examples
 ```
